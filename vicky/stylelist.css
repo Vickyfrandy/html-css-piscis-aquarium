@@ -1,0 +1,157 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: auto;
+    padding: 0px;
+    font-family: 'open sans', sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: 0px;
+    position: relative;
+}
+
+.logo a {
+    font-size: 60px;
+    font-weight: 800;
+    float: left;
+    font-family: Courier;
+    color: dodgerblue;
+    margin-top: 10px;
+}
+
+.menu {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #245666;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: aquamarine;
+    font-weight: bold;
+    text-align: left;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    /* width: 100px; */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 240px;
+    margin-bottom: 100px;
+    margin-left: 60px;
+}
+
+.kolom .deskripsi {
+    font-size: 45px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: dodgerblue;
+}
+
+h2 {
+    font-family: 'comic sans-ms';
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 10px;
+    color: #245666;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #246677;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 15px 15px 15px;
+    color: aquamarine;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #232466;
+    text-decoration: underline;
+}
+
+marquee {
+    background-color: aqua;
+}
+
+.list {
+    color: aqua;
+    background-color: #246677;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#contact {
+    background: #246677;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 25px;
+    color: aquamarine;
+    width: 100%;
+}
+
+p {
+    color: aquamarine;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+}

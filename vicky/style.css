@@ -1,0 +1,309 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: auto;
+  padding: 0px;
+  font-family: "open sans", sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: 0px;
+  /* padding-left: 0px; */
+  position: -ms-page;
+}
+
+.logo a {
+  font-size: 60px;
+  font-weight: 800;
+  float: left;
+  font-family: Courier;
+  color: dodgerblue;
+  margin-top: 10px;
+}
+
+.menu {
+  float: right;
+  /* padding-right: 0px; */
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: #245666;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 100px;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+  margin-left: 0px;
+  padding: 0fr;
+}
+
+nav ul li a {
+  color: aquamarine;
+  font-weight: bold;
+  text-align: left;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.kolom {
+  margin-top: 200px;
+  margin-bottom: 100px;
+  margin-right: 5px;
+}
+
+.kolom .deskripsi {
+  font-size: 25px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: dodgerblue;
+}
+
+h2 {
+  font-family: "comic sans-ms";
+  font-weight: 500;
+  font-size: 45px;
+  margin-bottom: 10px;
+  color: #245666;
+  width: 100%;
+  line-height: 50px;
+}
+
+a.tbl-biru {
+  background: #246677;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 15px 15px 15px;
+  color: aquamarine;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-biru:hover {
+  background: #232466;
+  text-decoration: underline;
+}
+
+a.tbl-kuning {
+  background: #faf4b7;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 15px 15px 15px;
+  color: aquamarine;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-kuning:hover {
+  background: #245666;
+  text-decoration: underline;
+}
+
+p {
+  margin: 10px 0px 10px 0 px;
+  padding: 10px 0px 10px 0px;
+}
+
+#contact {
+  background: #246677;
+  padding: 50px 0px 50px 0px;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.footer-section {
+  width: 20%;
+  margin: 0 auto;
+}
+
+h3 {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 25px;
+  margin-bottom: 25px;
+  color: aquamarine;
+  width: 100%;
+}
+
+p {
+  color: aquamarine;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  display: block;
+
+  width: 80%;
+
+  padding: 15px;
+
+  margin-top: 10px;
+
+  margin-bottom: 40px;
+
+  border: none;
+
+  border-bottom: 2px solid green;
+
+  font-family: sans-serif;
+
+  font-size: 16px;
+}
+
+label {
+  font-family: sans-serif;
+}
+
+.modal {
+  border-radius: 10px;
+
+  padding: 50px;
+
+  margin-left: 30%;
+
+  margin-right: 30%;
+
+  box-shadow: 1px 1px 5px;
+
+  background-color: white;
+
+  visibility: hidden;
+}
+
+.modal h1,
+form {
+  margin-left: 20%;
+}
+
+.modal h1 {
+  margin-left: 40%;
+
+  font-family: sans-serif;
+}
+
+.modal p {
+  position: relative;
+
+  left: 107%;
+
+  bottom: 65px;
+
+  font-size: 20px;
+
+  background-color: white;
+
+  display: inline;
+
+  padding: 10px;
+
+  border-radius: 50%;
+}
+
+.btn {
+  color: white;
+
+  width: 10%;
+
+  height: 80px;
+
+  font-size: 18px;
+
+  background-color: #007bff;
+
+  border-radius: 10px;
+}
+
+.btn2 {
+  color: white;
+
+  width: 40%;
+
+  height: 40px;
+
+  margin-left: 20%;
+
+  background-color: #007bff;
+
+  border: none;
+
+  border-radius: 10px;
+
+  font-size: 20px;
+}
+
+.btn2:hover {
+  background-color: #0f549b;
+}
+
+#wrab:target .modal {
+  transition: 0.56s;
+
+  transform: translateY(100px);
+
+  position: relative;
+
+  visibility: visible;
+}
+
+#wrab:target .bg-color {
+  position: absolute;
+
+  top: 0;
+
+  bottom: 0;
+
+  right: 0;
+
+  left: 0;
+
+  background-color: rgb(0, 0, 0, 0.5);
+}
